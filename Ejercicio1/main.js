@@ -1,2 +1,2 @@
-var nombre = "Jordi"
-alert(nombre)
+var nombre = "Jordi";
+alert(nombre);
