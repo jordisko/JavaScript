@@ -6,7 +6,7 @@ let undefinido =  undefined;
 let symbolo = Symbol("jordi");
 let objeto = { nombre: "jordi", edad: 24, dni: "35234324s"};
 let array = ["jordi", 24, "35234324s", false ];
-console.log(`${nombre}\n${numero}\n${booleano}\n${nada}\n${undefinido}\n${objeto}\n${array} `);
+console.log(`${nombre}\n${numero}\n${booleano}\n${nada}\n${undefinido}\n${objeto}\n${array}\n${symbolo.description} `);
 console.log(symbolo);
 console.log(typeof nombre);
 console.log(typeof numero);
