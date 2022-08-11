@@ -42,3 +42,26 @@ switch (numerodel1al12) {
         console.log("El valor introducido no es un numero del 1 al 12, intentelo de nuevo")
         break;
 }
+//2
+String1= "cuatro"
+switch (String1) {
+    case "uno":
+        console.log(1)
+        break;
+    case "dos":
+        console.log(2)
+        break;
+    case "tres":
+        console.log(3)
+        break;
+    case "cuatro":
+        console.log(4)
+        break;
+    case "cinco":
+        console.log(5)
+        break;
+
+    default:
+        consle.log("El formato introducido es incorrecto, Introduce un numero del 1 al 5 en formato string");
+        break;
+}
